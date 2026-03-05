@@ -27,4 +27,26 @@ Subscribes to the same topic and prints the received messages.
 
 ## How to Run
 
+### 1. Build the workspace
+colcon build
+
+### 2. Source the workspace
+source install/setup.bash
+
+### 3. Run Publisher Node
+ros2 run my_pubsub_pkg publisher
+
+### 4. Run Subscriber Node
+ros2 run my_pubsub_pkg subscriber
+
+## Output Example
+
+[INFO] Hello ROS2  
+[INFO] Hello ROS2  
+[INFO] Hello ROS2
+
+## Author
+Omkar Honrao  
+Robotics & Automation Enthusiast
+
 ### Build workspace
